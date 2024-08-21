@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.left-side {
+  width: 40vw;
+  height: 100vh;
+  gap: 0px;
+  opacity: 0px;
+  background-image: url("/assets/sideImg.png");
+  background-size: 40vw 100vh;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.company-logo {
+  position: absolute;
+  width: 130px;
+  height: 12px;
+  top: 48px;
+  left: 43px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 11.96px;
+  text-align: center;
+  color: #ffffff;
+}
+.c{
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+.c img{
+  position: absolute;
+  top: 50px;
+
+}
+.img-container img{
+  position: absolute;
+  border-radius: 28px;
+  height: 40px;
+  width: 40px;
+  top: 30%;
+  left: -20px;
+  background-color: white;
+  border: 10px solid white;
+}
+
+.container-body{
+  position: absolute;
+  /* border: 2px solid red; */
+  width: 100%;
+  top: 180px;
+  padding: 3rem;
+}
+.container-body .row{
+  align-items: center;
+  position: relative;
+border-radius: 15px;
+border: 0.5px solid white !important;
+width: 325px;
+/* background:; */
+background-size: cover;
+filter: blur(10);
+background-color: rgb(3, 121, 218);
+}
+.content-container{
+  margin-left: 20px;
+  /* padding: 0.5rem 0.8rem; */
+  padding-block: 0.5rem;
+}
+.content-container h4{
+  font-family: Raleway;
+font-size: 24px;
+font-weight: 700;
+line-height: 29.32px;
+text-align: left;
+color: #FFFFFF;
+}
+.content-container p{
+  font-family: Raleway;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18.72px;
+  text-align: left;
+  color: #FFFFFF;
+  
+}
+/* right side home container */
+
+.right-side {
+  /* border: 2px solid red; */
+  width: 79vw;
+  height: 100vh;
+  padding-right: 80px;
+}
+.btn-black {
+  width: 139.92px;
+  height: 57px;
+  top: 48px;
+  left: 1249.08px;
+  border-radius: 30px;
+  background: #000000;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 11.96px;
+  text-align: center;
+}
+.row-1 {
+  display: flex;
+  justify-content: flex-end;
+
+  /* border: 2px solid red; */
+}
+
+.register-heading {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    
+
+}
+
+.register-subheading {
+    font-family: Raleway;
+    font-size: 15.04px;
+    font-weight: 400;
+    line-height: 10.9px;
+    text-align: left;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 10rem;
+}
+.col-md-6 {
+  width: 400px;
+  top: 321px;
+  left: 915px;
+  display: flex;
+  flex-direction: column;
+}
+.col-md-6 input,
+#planType {
+  width: 380px;
+  height: 60px;
+  border-radius: 15px;
+  padding-inline: 1.8rem;
+  padding-right: 2rem;
+  border: 1px solid #b8b8b8;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14.5px;
+}
+#planType {
+  /* border: 2px solid red; */
+  border: none;
+  width: 350px;
+  margin-right: 20px !important;
+}
+.dropdown-div{
+  border: 1px solid #b8b8b8;
+  border-radius: 15px;
+}
+
+.col-md-6 input,
+#planType ::placeholder {
+  color: #b8b8b8;
+}
+.col-md-6 #planType {
+  color: #7c7c7c;
+}
+.register-btn {
+  width: 380px;
+  height: 60px;
+  background: #004dff;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 11.96px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+}
+#copyright {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14.5px;
+  text-align: center;
+}
+.msg {
+  color: red;
+  text-align: end;
+  padding-block: 8px;
+  font-family: Outfit;
+font-size: 11px;
+font-weight: 500;
+line-height: 13.86px;
+
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  /* padding-bottom: 20px; */
+}
+
+.email {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  filter: grayscale(50);
+  background-image: url('/assets/Vector.png');
+  background-position: 20px 15px; 
+  background-repeat: no-repeat;
+  padding: 12px 10px 12px 40px;
+}
+.password{
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  filter: grayscale(50);
+  background-image: url('/assets/Vector2.png');
+  background-position: 20px 15px; 
+  background-repeat: no-repeat;
+  padding: 12px 10px 12px 40px;
+}
+.password-div{
+  position: relative;
+display: flex;
+align-items: center;
+}
+.pass-icon{
+  position: absolute;
+  left: 90%;
+  width: 20px;
+  height: 20px;
+  filter: grayscale(50);
+}
+.car-1 img{
+color: white;
+}

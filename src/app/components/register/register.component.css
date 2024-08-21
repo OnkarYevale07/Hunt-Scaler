@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.left-side {
+  width: 20vw;
+  height: 100vh;
+  gap: 0px;
+  opacity: 0px;
+  background-image: url("/src/assets/sideImg.png");
+  position: relative;
+}
+.left-side img {
+  width: 20vw;
+  height: 100vh;
+}
+.company-logo {
+  position: absolute;
+  width: 130px;
+  height: 12px;
+  top: 48px;
+  left: 43px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 11.96px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* right side home container */
+
+.right-side {
+  /* border: 2px solid red; */
+  width: 79vw;
+  height: 100vh;
+  padding-right: 80px;
+}
+.btn-black {
+  width: 139.92px;
+  height: 57px;
+  top: 48px;
+  left: 1249.08px;
+  border-radius: 30px;
+  background: #000000;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 11.96px;
+  text-align: center;
+}
+.row-1 {
+  display: flex;
+  justify-content: flex-end;
+
+  /* border: 2px solid red; */
+}
+
+.register-heading {
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+
+}
+
+.register-subheading {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #7E7E7E;
+  
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 10rem;
+}
+.col-md-6 {
+  width: 400px;
+  top: 321px;
+  left: 915px;
+  display: flex;
+  flex-direction: column;
+}
+.col-md-6 input,
+#planType {
+  width: 380px;
+  height: 60px;
+  border-radius: 15px;
+  padding-inline: 1.8rem;
+  padding-right: 2rem;
+  border: 1px solid #b8b8b8;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14.5px;
+}
+#planType {
+  /* border: 2px solid red; */
+  border: none;
+  width: 350px;
+  margin-right: 20px !important;
+}
+.dropdown-div{
+  border: 1px solid #b8b8b8;
+  border-radius: 15px;
+}
+
+.col-md-6 input,
+#planType ::placeholder {
+  color: #b8b8b8;
+}
+.col-md-6 #planType {
+  color: #7c7c7c;
+}
+.register-btn {
+  width: 380px;
+  height: 60px;
+  background: #004dff;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 11.96px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+}
+#copyright {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14.5px;
+  text-align: center;
+}
+.msg {
+  color: red;
+  text-align: end;
+  padding-block: 8px;
+  font-family: Outfit;
+font-size: 11px;
+font-weight: 500;
+line-height: 13.86px;
+
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  /* padding-bottom: 20px; */
+}
