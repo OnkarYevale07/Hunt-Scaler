@@ -2,7 +2,7 @@
 
 .left-side {
   width: 20vw;
-  height: 100vh;
+  height: 99%;
   gap: 0px;
   opacity: 0px;
   background-image: url("/src/assets/sideImg.png");
@@ -10,7 +10,7 @@
 }
 .left-side img {
   width: 20vw;
-  height: 100vh;
+  height: 99%;
 }
 .company-logo {
   position: absolute;
@@ -31,11 +31,15 @@
 
 /* right side home container */
 
+.register{
+  display: flex;
+  border: none;;
+}
 .right-side {
   /* border: 2px solid red; */
   width: 79vw;
-  height: 100vh;
-  padding-right: 80px;
+  height: 99%;
+  margin: 4rem;
 }
 .btn-black {
   width: 139.92px;
