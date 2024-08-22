@@ -1,16 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-
 .left-side {
-  width: 20vw;
-  height: 99%;
-  gap: 0px;
-  opacity: 0px;
-  background-image: url("/src/assets/sideImg.png");
+  background-image: url("/assets/sideImg.png");
   position: relative;
+  background-color: #000000;
+  display: block;
+  width: 24vw;
+  background-repeat: no-repeat;
+}
+.register{
+  height: 100vh;
+  overflow: hidden;
 }
 .left-side img {
   width: 20vw;
-  height: 99%;
+  height: 100vh;
 }
 .company-logo {
   position: absolute;
@@ -33,7 +35,8 @@
 
 .register{
   display: flex;
-  border: none;;
+  border: none;
+  padding: 0;
 }
 .right-side {
   /* border: 2px solid red; */
@@ -86,7 +89,7 @@
   padding-inline: 10rem;
 }
 .col-md-6 {
-  width: 400px;
+  width: 390px;
   top: 321px;
   left: 915px;
   display: flex;
@@ -124,7 +127,7 @@
   color: #7c7c7c;
 }
 .register-btn {
-  width: 380px;
+  width: 350px;
   height: 60px;
   background: #004dff;
   font-family: Raleway;

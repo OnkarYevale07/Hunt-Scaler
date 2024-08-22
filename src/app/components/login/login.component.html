@@ -4,7 +4,7 @@
       <p class="company-logo">HuntScaler</p>
     </div>
     <div class="container-body">
-      <div class="row ms-auto r1">
+      <div class="row ms-auto me-3 r1">
         <div class="c">
           <div class="img-container">
             <img src="assets/web.png" alt="" />
@@ -24,24 +24,22 @@
             <img src="assets/database.png" alt="" />
           </div>
           <div class="content-container">
-            <h4>Al-Based Proctoring</h4>
+            <h4>Multi-Format Support</h4>
             <p>
-              Al-based facial recognition to ensure the integrity of the
-              assessment.
+              Coding, MCQ, Fill in the blanks and Descriptive Questions - we support all of them!
             </p>
           </div>
         </div>
       </div>
-      <div class="row mt-5 ms-auto r3">
+      <div class="row mt-5 ms-auto me-3 r3">
         <div class="c">
           <div class="img-container">
             <img src="assets/Group.png" alt="" />
           </div>
           <div class="content-container">
-            <h4>Al-Based Proctoring</h4>
+            <h4>Live Chat Support</h4>
             <p>
-              Al-based facial recognition to ensure the integrity of the
-              assessment.
+              Get real help from the Tech Support team if you need any assistance during the assessment
             </p>
           </div>
         </div>
@@ -53,7 +51,7 @@
       <div class="row row-1">
         <button class="btn-black" routerLink="/register">Sign Up</button>
       </div>
-      <form action="#" class="register-form">
+      <div class="register-form mt-5">
         <div class="container mt-5">
           <div class="row">
             <h4 class="register-heading">Sign Up</h4>
@@ -75,14 +73,15 @@
 
           <div class="row mt-3">
             <div class="col-md-6">
-              <button class="register-btn">Sign In</button>
+              <button class="register-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign In</button>
             </div>
           </div>
           <div class="row mt-3">
             <p class="col-md-6" id="copyright">2024 All Right Reserved</p>
           </div>
         </div>
-      </form>
+      </div>
     </div>
   </div>
 </div>
+<app-set-password-modal></app-set-password-modal>
