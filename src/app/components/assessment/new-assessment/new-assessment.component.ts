@@ -10,10 +10,10 @@ import { ActivatedRoute } from '@angular/router';
   styleUrl: './new-assessment.component.css'
 })
 export class NewAssessmentComponent {
-  public timeType: string|null="0";
+  public timeType: string="";
   constructor(private route:ActivatedRoute){}
   ngOnInit() {
-    this.timeType = this.route.snapshot.paramMap.get('timeType');
+  this.timeType = this.route.snapshot.paramMap.get('timeType')!;
     console.warn(typeof this.timeType);
  }
 }

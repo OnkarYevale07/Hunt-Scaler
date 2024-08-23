@@ -1,11 +1,14 @@
 .main-container{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
     background-image: linear-gradient(to bottom, #004Dff, #447CFF);
     display: flex;
+    border:none;
+    overflow-x: hidden;
   }
   .left-side-container{
-    height: 100vh;
+    height: 100%;
     width: 20vw;
     display: flex;
     flex-direction: column;
@@ -14,7 +17,8 @@
     gap: 3.5rem;
   }
   .right-side-container{
-    height: 97vh;
+    height: 100%;
+    min-height: 97vh;
     width: 80vw;
     background-color: white;
     border-radius: 40px 40px 40px 40px;

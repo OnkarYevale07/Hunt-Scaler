@@ -1,75 +1,131 @@
-
 <div class="header">
-    <h1 class="header-heading">Create New  Assessments</h1>
+    <h1 class="header-heading">Create New Assessments</h1>
     <div class="sub-heading">
-       <div class="search-bar">
-           <form action="#" class="search-bar-form">
-               <input type="text" class="ms-2" placeholder="Search...">
-               <div class="search-btn ms-1">
-              <img src="/assets/search.png" alt="">
-           </div>
-           </form>
-       </div>
+        <div class="search-bar">
+            <form action="#" class="search-bar-form">
+                <input type="text" class="ms-2" placeholder="Search...">
+                <div class="search-btn ms-1">
+                    <img src="/assets/search.png" alt="">
+                </div>
+            </form>
+        </div>
     </div>
-   </div>
-   <ul class="home-navbar">
-       <li class="active">Basic Details</li>
-       <li>Questions</li>
-       <li>Proctoring</li>
-       <li>Configuration</li>
-       <li>Candidate</li>
-       <li>Email Template</li>
-   </ul>
+</div>
+<ul class="home-navbar">
+    <li class="active">Basic Details</li>
+    <li>Questions</li>
+    <li>Proctoring</li>
+    <li>Configuration</li>
+    <li>Candidate</li>
+    <li>Email Template</li>
+</ul>
 
-   <div class="new-assessment-form">
-    <form action="">
-<h1 class="form-heading">
-    Assessment Information
-</h1>
-<div class="form-container container">
-<div class="row g-5">
-    <div class="col-md-4 input-box">
-        <label for="#">Assessment Name</label>
-        <input type="text">
-</div>
-    <div class="col-md-4 input-box">
-        <label for="#">Location</label>
-        <input type="text">
-    </div>
-    <div class="col-md-4 input-box">
-        <label for="#">Role</label>
-            <button class="dropdown dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                 
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-    </div>
-</div>
-<div class="row g-5">
-    <div class="col-md-4 input-box">
-        <label for="#">Assessment Duration</label>
-        <input type="text">
-</div>
-    <div class="col-md-4 input-box">
-        <label for="#">Location</label>
-        <input type="text">
-    </div>
-    <div class="col-md-4 input-box">
-        <label for="#">Role</label>
-            <button class="dropdown dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                 
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-    </div>
-</div>
+<div class="new-assessment-form">
+    <form action="#">
+        <h1 class="form-heading mt-0">
+            Assessment Information
+        </h1>
+        <div class="form-container container">
+            <div class="row g-5">
+                <div class="col-md-4 input-box">
+                    <label for="#">Assessment Name</label>
+                    <input type="text">
+                </div>
+                <div class="col-md-4 input-box">
+                    <label for="#">Location</label>
+                    <input type="text">
+                </div>
+                <div class="col-md-4 input-box">
+                    <label for="#">Role</label>
+                    <button class="dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="/assets/downArrow.png" alt="">
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">UI Developer</a></li>
+                        <li><a class="dropdown-item" href="#">Coding</a></li>
+                        <li><a class="dropdown-item" href="#">Data Analyst</a></li>
+                        <li><a class="dropdown-item" href="#">Backend Developer</a></li>
+                        <li><a class="dropdown-item" href="#">Project Manager</a></li>
+                        <li><a class="dropdown-item" href="#">Senior Analyst</a></li>
+                        <li><a class="dropdown-item" href="#">System Admin</a></li>
+                        <li><a class="dropdown-item" href="#">Team Leader</a></li>
+                        <li><a class="dropdown-item" href="#">UX Designer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-md-4 input-box">
+                    <label for="#">Assessment Duration</label>
+                    <input type="text">
+                </div>
+                <div class="col-md-4 input-box">
+                    <label for="#">Exam date & Time</label>
+                    <input type="date" class="date-input" [ngClass]="timeType=='0'?'disabled-btn':''"
+                        [disabled]="timeType=='0'">
+                </div>
+                <div class="col-md-4 input-box">
+                    <label for="#">Registration close date & Time</label>
+                    <input type="date" class="date-input" [ngClass]="timeType=='0'?'disabled-btn':''"
+                        [disabled]="timeType=='0'">
+                </div>
+            </div>
 
-</div>
+            <div class="row g-5">
+                <div class="col-md-4 input-box">
+                    <label for="#">Experience</label>
+                    <button class="dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="/assets/downArrow.png" alt="">
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">0</a></li>
+                        <li><a class="dropdown-item" href="#">1</a></li>
+                        <li><a class="dropdown-item" href="#">2</a></li>
+                        <li><a class="dropdown-item" href="#">3</a></li>
+                        <li><a class="dropdown-item" href="#">4</a></li>
+                        <li><a class="dropdown-item" href="#">5+</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <h1 class="form-heading mt-3">
+            Assessment Information
+        </h1>
+        <div class="form-container container">
+            <div class="row g-5">
+                <div class="col-md-4 input-box">
+                    <label for="#">Venue Name</label>
+                    <input type="text">
+                </div>
+                <div class="col-md-4 input-box">
+                    <label for="#">Address 1</label>
+                    <input type="text">
+                </div>
+                <div class="col-md-4 input-box">
+                    <label for="#">Address 2</label>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="row g-5 mb-3">
+                <div class="col-md-4 input-box">
+                    <label for="#">Street</label>
+                    <input type="text">
+                </div>
+                <div class="col-md-4 input-box">
+                    <label for="#">Pin Code</label>
+                    <input type="text">
+                </div>
+            </div>
+
+
+
+            <div class="row g-5 text-center mb-1">
+                <div class="col-md-6 offset-md-3">
+                    <button type="button" class="btn btn-dark exit-btn">Save & Exit</button>
+                    <button type="button" class="btn btn-primary proceed-btn">Save & Proceed</button>
+                </div>
+            </div>
+
+
+        </div>
     </form>
-   </div>
+</div>
