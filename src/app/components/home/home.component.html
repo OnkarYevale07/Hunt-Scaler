@@ -13,31 +13,12 @@
             <li class=""><img class="me-3" src="/assets/profile.png" alt=""><span>Profile</span></li>
         </ul>
 
-        <div class="logout mt-auto me-5">
+        <div class="logout mt-auto">
             <p><img class="me-3" src="/assets/logout.png" alt="">Logout</p>
         </div>
     </div>
-    <div class="right-side-container">
-
-        <div class="header">
-         <h1 class="header-heading">Assessments</h1>
-         <div class="sub-heading">
-            <div class="search-bar">
-                <form action="#" class="search-bar-form">
-                    <input type="text" class="ms-2" placeholder="Search...">
-                    <div class="search-btn ms-1">
-                   <img src="/assets/search.png" alt="">
-                </div>
-                </form>
-            </div>
-                <button class="add-btn"><img src="/assets/plus.png" class="me-3" alt="">Add assessment</button>
-         </div>
-        </div>
-        <ul class="home-navbar">
-            <li class="active">All assessments</li>
-            <li>Today’s</li>
-            <li>Upcoming</li>
-            <li>Previous</li>
-        </ul>
+    <div class="right-side-container pt-1">
+        <router-outlet></router-outlet>
     </div>
 </div>
+

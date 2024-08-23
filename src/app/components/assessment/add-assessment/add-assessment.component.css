@@ -1,0 +1,29 @@
+
+.home-navbar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* border:1px solid red; */
+    gap: 40px;
+    height:51px;
+    margin-top: 95px;
+    background-color: #F3F6FE;
+  }
+  .home-navbar li{
+    font-family: Raleway;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: var(--TitleSmallLineHeight);
+  text-align: left;
+  color: #B8B8B8;
+  cursor: pointer;
+  }
+  .home-navbar .active{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: var(--TitleSmallLineHeight);
+    text-align: left;  
+  color:#004DFF;
+  border-bottom: 2px solid #004DFF;
+  }

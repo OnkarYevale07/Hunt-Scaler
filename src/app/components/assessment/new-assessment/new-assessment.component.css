@@ -1,0 +1,71 @@
+.home-navbar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  /* border:1px solid red; */
+  justify-content: space-between;
+  height: 51px;
+  margin-top: 95px;
+  padding-inline: 2rem 5rem;
+  background-color: #f3f6fe;
+}
+.home-navbar li {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: var(--TitleSmallLineHeight);
+  text-align: left;
+  color: #b8b8b8;
+  cursor: pointer;
+}
+.home-navbar .active {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: var(--TitleSmallLineHeight);
+  text-align: left;
+  color: #004dff;
+  border-bottom: 2px solid #004dff;
+}
+
+.new-assessment-form {
+  padding: 1rem 2rem;
+}
+
+.form-heading {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: #000000;
+}
+.input-box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.8rem;
+  margin-bottom: 20px;
+}
+.input-box label{
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+}
+.input-box input, .dropdown{
+ margin:0.5rem 5rem 0rem 0rem;
+ height: 3rem;
+ outline: none;
+ border: 1px solid #b8b8b8;
+ background-color: white;
+ border-radius: 15px;
+}
+.dropdown{
+text-align: end;
+font-size: 1.2rem;;
+padding-right: 2rem;
+}
+.dropdown-menu{
+  width: 18rem;
+}

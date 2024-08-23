@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
-import { SetPasswordModalComponent } from "../set-password-modal/set-password-modal.component";
+import { SetPasswordModalComponent } from "../pop-modal/set-password-modal/set-password-modal.component";
 
 @Component({
   selector: 'app-login',
